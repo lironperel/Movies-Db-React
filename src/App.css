@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+.main-app {
+  background-color: #e8deec;
+  padding-bottom: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+a {
+  color: #7f2b8c;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #b649c6;
+  text-decoration: none;
+}
+
+.navbar{
+  background-color:#cfbed6;
+  outline: 1px solid #8d349b;
+  margin-bottom: 2%;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  font-family: 'Lobster', cursive;
+}
+
+
+.logo-img {
+  width: 80px;
+  height: auto;
+  margin: 0 14px;
+}
+
+.movie-item {
+  align-items: center;
+  width:30%;
+  background-color:rgb(230, 230, 230);
+  margin:1%;
+  outline:2px solid rgb(138, 68, 145);
+}
+
+.movie-title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color:#7f2b8c;
+  font-weight: bold;
+  padding:1%;
+  font-size: 1em;
+  width:100%;
+  text-align: center;
+}
+
+.movie-title p {
+  padding:0;
+  margin: 0;
+}
+.movie-details {
+  position:relative;
+  color:#4e4e4e;
+  font-size: 0.9em;
+  text-align: left;
+  width: 100%;
+  padding-bottom: 80px;
+}
+
+.movie-btn {
+  width: 100%;
+  height: 50px;
+  position:absolute;
+  bottom:0;
+  padding:0;
+  margin:0;
+}
+
+.btn-div {
+  margin:0;
+  padding:0;
+}
+
+.right-btn {
+  text-align: right;
+}
+
+.custom-btn {
+  background: #7f2b8c;
+  color: white;
+  border: 2px solid #cfbed6;
+  border-radius: 3px;
+  padding: 5px 10px;
+  font-size: 1.2em;
+}
+
+.custom-btn-sm {
+  background: #7f2b8c;
+  color: white;
+  border: 1px solid #cfbed6;
+  border-radius: 2px;
+  padding: 5px 10px;
+}
+
+.error-message {
+  color:red;
+}
+
+.footer {
+	position:fixed;
+	bottom:0;
+	width:100%;
+	height: 30px;
+	background-color: #7f2b8c;
+	text-align: center;
+	color: white;
+	vertical-align: middle;
+	line-height: 30px;
+}
+.footer a{
+	text-decoration: none;
+  color: white;
+  font-weight: normal;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media only screen and (max-width:1024px){
+  .movie-item{
+    width:40%;
+    margin: 2%;
+  }
+}
+
+@media only screen and (max-width:650px){
+  .movie-item{
+    width:90%;
+    margin: 2%;
+  }
+
+  .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+
