@@ -1,4 +1,4 @@
 # Movies Database created with ReactJS
 This is a ReactJs App
 * created using OMDB API
-* Add/Edit/Delete movies
+* Add/Edit/Delete movies functions included on app
