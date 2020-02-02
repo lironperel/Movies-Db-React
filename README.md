@@ -10,9 +10,9 @@
   * Runtime
   * Genre
   * Director
-* Movies fetched using OMDB API - [http://www.omdbapi.com/](http://www.omdbapi.com/)
+* Movies data taken from OMDB API - [http://www.omdbapi.com/](http://www.omdbapi.com/)
 * Each movie can be deleted or edited
-* User can add new movie to list using 'Add New Movie' button
+* User can add new movies using 'Add New Movie' button
 * Responsive UI + Mobile support
 
 ![](movies-screen1.png)
